@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color-blue : #0303e4;
+  --nav-bg-color-blue : #2424fe;
+  --text-white : #ffffff;
+  --color-blue-white : #dfdff9;
+  --color-yellow : #ffff42;
+  --text-blue : #0101ae;
+  --padding-LR : 48px;
+  --padding-TB : 32px;
+  --btn-padding :  15px 40px;
+  --border-radius-top-LR : 32px;
+  --banner-heading-font-size : 68px;
+  --paragraph-font-size : 18px;
+  --bold-main : 700;
+  --bold-less : 600;
+  --bold-lesser : 400;
+  --banner-heading-letter-spacing : 12px;
+}
+
+.text-white {
+  color: var(--text-white);
+}
+
+body {
+  background-color: var(--bg-color-blue);
+}
+
+::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: auto;
+}

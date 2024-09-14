@@ -1,0 +1,33 @@
+footer {
+    background-color: var(--color-blue-white);
+    padding-inline: var(--padding-LR);
+    padding-block: var(--padding-TB);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-inner-container-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-site-content {
+    width: 30%;
+}
+
+.footer-site-content p {
+    text-align: justify;
+}
+
+.footer-additional-links-container {
+    width: 30%;
+}
+
+
+
+.footer-subscribe-container {
+    width: 30%;
+}

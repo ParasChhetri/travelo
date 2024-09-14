@@ -1,0 +1,173 @@
+.Home-main-container {
+    padding-inline: var(--padding-LR);
+    padding-block: var(--padding-TB);
+    
+}
+
+.main-container-image {
+    background-image: url('../../assets//images/mountain-landscape-night.jpg');
+    height: 660px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 8px 8px 12px #000047ba;
+}
+
+.main-container-image-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.image-content-heading {
+    font-size: var(--banner-heading-font-size);
+    text-transform: uppercase;
+    font-weight: var(--bold-main);
+    letter-spacing: var(--banner-heading-letter-spacing);
+}
+
+.image-content-text {
+    font-size: var(--paragraph-font-size);
+    font-weight: var(--bold-less);
+}
+
+.btn-white {
+    padding: var(--btn-padding);
+    border-radius: 100px;
+    font-weight: var(--bold-less);
+    background-color: var(--color-blue-white);
+    backdrop-filter: blur(14px);
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 6.25rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.5) scaleY(1.8);
+    opacity: 0;
+}
+
+.search-container {
+    padding-block: var(--padding-TB);
+}
+
+.user-input-search form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-block: var(--padding-TB);
+}
+
+.user-input-search form div {
+    height: 40px;
+    width: 240px;
+    border-radius: 28px;
+    overflow: hidden;
+    box-shadow: 8px 8px 12px #000047ba;
+}
+
+.user-input-search form div input {
+    height: 100%;
+    width: 100%;
+    padding: 8px 14px;
+    border: none;
+    outline: none;
+}
+
+.search-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: var(--padding-TB);
+}
+
+.search-btn {
+    border: none;
+    padding: var(--btn-padding);
+    border-radius: 100px;
+    background-color: var(--color-yellow);
+    box-shadow: 8px 8px 12px #000047ba;
+    font-weight: var(--bold-lesser);
+}
+
+.search-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.popular-destination-container h1,p {
+    text-align: center;
+}
+
+.popular-destination-card-container {
+    padding-block: var(--padding-TB);
+    background-color: var(--color-blue-white);
+    border-radius: var(--border-radius-top-LR) var(--border-radius-top-LR) 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+
+.destination-card {
+    min-height: 300px;
+    width: 400px;
+    border-radius: 18px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.destination-card>:nth-child(1) {
+    height: 280px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.destination-card div img {
+    height: 100%;
+    width: 100%;
+    transition: all 2s ease-in-out;
+}
+
+.destination-card div img:hover {
+    transform: scale(1.15);
+    transition: all 2s ease-in-out;
+}
+
+.desination-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
