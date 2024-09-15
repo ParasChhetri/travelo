@@ -15,7 +15,7 @@ footer {
 }
 
 .footer-site-content {
-    width: 30%;
+    width: 40%;
 }
 
 .footer-site-content p {
@@ -23,11 +23,54 @@ footer {
 }
 
 .footer-additional-links-container {
-    width: 30%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.footer-additional-links-container ul {
+    list-style-type: none;
+}
 
+.footer-additional-links-container ul li {
+    padding: 12px;
+}
 
 .footer-subscribe-container {
-    width: 30%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-container {
+    display: flex;
+    gap: 10px;
+}
+
+.input-container {
+    border: 2px solid;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.input-container input {
+    border: none;
+    outline: none;
+}
+
+.social-media-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: 32px;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid;
+    width: 100%;
 }

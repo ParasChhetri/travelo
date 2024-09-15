@@ -27,6 +27,10 @@
   color: var(--text-white);
 }
 
+.text-align-justify {
+  text-align: justify;
+}
+
 body {
   background-color: var(--bg-color-blue);
 }

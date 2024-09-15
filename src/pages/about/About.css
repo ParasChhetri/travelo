@@ -1,0 +1,36 @@
+.about-main-container {
+    padding-inline: var(--padding-LR);
+    padding-block: var(--padding-TB);
+}
+
+.about-banner-container {
+    background-image: url('../../assets/images/Beautiful-Mountain-Nature-Colorful-Scenery-Minimalist-Digital-Art.jpg');
+    height: 660px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 8px 8px 12px #000047ba;
+}
+
+.about-banner-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.about-banner-content-heading {
+    font-size: var(--banner-heading-font-size);
+    text-transform: uppercase;
+    font-weight: var(--bold-main);
+    letter-spacing: var(--banner-heading-letter-spacing);
+}
+
+.about-us-container {
+    padding-block: var(--padding-TB);
+}

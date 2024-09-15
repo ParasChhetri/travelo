@@ -26,18 +26,28 @@ const Footer = () => {
                             <li>
                                 <NavLink to={'/'} className='nav-link'>Home</NavLink>
                             </li>
-                            <li>Blog</li>
-                            <li>About</li>
-                            <li>Register</li>
+                            <li>
+                            <NavLink className="nav-link" to={'/Blog'}>
+                                    Blog
+                                </NavLink>
+                            </li>
+                            <li>
+                            <NavLink className="nav-link" to={'/About'}>
+                                    About
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink className='nav-link' to={'/Register'}>Register</NavLink>
+                            </li>
                         </ul>
                     </div>
                     <div className='footer-subscribe-container'>
                         <h2>Stay updated</h2>
-                        <form>
-                            <div>
+                        <form className='form-container'>
+                            <div className='input-container'>
                                 <input type="text" placeholder='Email'/>
                             </div>
-                            <input type="button" value={'SUBSCRIBE'} onClick={() => alert("congratulation")} />
+                            <input type="button" value={'SUBSCRIBE'} onClick={() => alert("congratulation")} className='btn btn-primary'/>
                         </form>
                     </div>
                 </div>
@@ -46,6 +56,10 @@ const Footer = () => {
                     <FaXTwitter />
                     <FaInstagramSquare />
                     <FaReddit />
+                </div>
+                <div className='horizontal-line'></div>
+                <div className='copyright-container'>
+                    <p>© <span className='fw-bold'>Travelo</span> All Rights Reserved.</p>
                 </div>
             </footer>
         </>
