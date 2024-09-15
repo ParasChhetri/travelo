@@ -36,6 +36,11 @@ const Navbar = () => {
                                     About
                                 </NavLink>
                             </li>
+                            <li className="nav-item">
+                                <NavLink className="nav-link text-white fs-4" to={'/Contact'}>
+                                    Contact us
+                                </NavLink>
+                            </li>
                         </ul>
                            <NavLink to={'/Login'} type="button" className="btn btn-lg btn-success">
                                 Login

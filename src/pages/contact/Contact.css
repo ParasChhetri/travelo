@@ -1,0 +1,37 @@
+.contact-main-container {
+    padding-inline: var(--padding-LR);
+    padding-block: var(--padding-TB);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-blue-white);
+    padding-block: var(--padding-TB);
+    border-radius: 12px;
+}
+
+.width-less-than-half {
+    width: 40%;
+}
+
+.main-branch-container {
+    padding-block: var(--padding-TB);
+    padding-inline: var(--padding-LR);
+}
+
+
+.location-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-text {
+    width: 40%;
+}
+

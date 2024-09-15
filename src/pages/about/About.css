@@ -34,3 +34,93 @@
 .about-us-container {
     padding-block: var(--padding-TB);
 }
+
+.sucess-story-container {
+    background-color: var(--color-blue-white);
+    border-radius: 32px;
+    overflow: hidden;
+    padding-block: var(--padding-TB);
+    padding-inline: var(--padding-LR);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sucess-story {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.counting-UI {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.memory-lane-container {
+    padding-block: var(--padding-TB);
+    padding-inline: var(--padding-LR);
+}
+
+.memory-lane-image-row {
+    display: flex;
+    min-height: 300px;
+    gap: 12px;
+    background-color: var(--color-blue-white);
+}
+
+.middle-image {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.image-30 {
+    height: 500px;
+    width: 500px;
+}
+
+.image-30 img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: 100% 100%;
+    transition: all 2s ease;
+}
+
+.image-30 img:hover {
+    transform: scale(1.4);
+}
+
+.image-40 {
+    width: 560px;
+    height: 243px;
+}
+
+.image-40 img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: 100% 100%;
+    transition: all 2s ease;
+}
+
+.image-40 img:hover {
+    transform: scale(1.4);
+}
+
+.agencies-container {
+    padding-block: var(--padding-TB);
+    padding-inline: var(--padding-LR);
+}
+
+.agencies-inner-container {
+    padding-block: var(--padding-TB);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
