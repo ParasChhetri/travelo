@@ -1,0 +1,36 @@
+.login-main-container {
+    padding-inline: var(--padding-LR);
+    padding-block: var(--padding-TB);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form-container {
+    background-color: var( --color-blue-white);
+    height: 400px;
+    padding: 38px;
+    border-radius: 32px;
+}
+
+.login-form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.login-form-container form div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+}
+
+.login-form-container form div input {
+    border: none;
+    outline: none;
+    padding: 12px;
+}

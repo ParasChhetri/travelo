@@ -34,7 +34,7 @@ footer {
 }
 
 .footer-additional-links-container ul li {
-    padding: 12px;
+    padding: 12px 0;
 }
 
 .footer-subscribe-container {
@@ -68,9 +68,32 @@ footer {
     justify-content: center;
     gap: 12px;
     font-size: 32px;
+    margin: 32px 0;
 }
 
 .horizontal-line {
     border-bottom: 1px solid;
     width: 100%;
+}
+
+
+@media (max-width: 800px) {
+    .footer-inner-container-main {
+        display: inline;
+        gap: 32px;
+    }
+    .footer-site-content {
+        width: 100%;
+    }
+    .footer-additional-links-container {
+        width: 100%;
+        display: inline;
+    }
+    .footer-additional-links-container ul li {
+        padding: 12px 0;
+    }
+    .footer-subscribe-container {
+        width: 100%;
+        display: inline;
+    }
 }

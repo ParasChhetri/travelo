@@ -35,3 +35,22 @@
     width: 40%;
 }
 
+@media (max-width: 800px) {
+    .location-container {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .location-container iframe {
+        width: auto;
+    }
+    .location-text {
+        width: 100%;
+    }
+    .contact-main-container {
+        flex-direction: column;
+    }
+    .width-less-than-half {
+        width: 100%;
+    }
+}

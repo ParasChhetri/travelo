@@ -1,7 +1,6 @@
 .Home-main-container {
     padding-inline: var(--padding-LR);
-    padding-block: var(--padding-TB);
-    
+    padding-block: var(--padding-TB);   
 }
 
 .main-container-image {
@@ -141,7 +140,7 @@
 }
 
 .destination-card {
-    min-height: 300px;
+    height: auto;
     width: 400px;
     border-radius: 18px;
     overflow: hidden;
@@ -170,4 +169,51 @@
     align-items: center;
     justify-content: space-between;
     padding: 12px;
+}
+
+.testimonial-container {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.testimonial-card {
+    background-color: white;
+    border-radius: 32px;
+    width: 600px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 0 16px;
+}
+
+@media (max-width: 800px) {
+    .image-content-heading {
+        font-size: 48px;
+    }
+    .user-input-search form {
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+    }
+    .popular-destination-container p {
+        text-align: justify;
+    }
+}
+
+@media (max-width: 556px) {
+    .main-container-image {
+        height: 500px;
+    }
+    .image-content-heading {
+        font-size: 36px;
+    }
+    .destination-card {
+        height: auto;
+        width: 300px;
+    }
+    .destination-card>:nth-child(1) {
+        height: 200px;
+    }
 }

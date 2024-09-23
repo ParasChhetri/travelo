@@ -1,0 +1,95 @@
+.blogs-main-container {
+    padding-inline: var(--padding-LR);
+    padding-block: var(--padding-TB);
+}
+
+.blog-banner-container {
+    background-image: url('../../assets/images/painting-camp-site-with-sunset-background.avif');
+    height: 660px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 8px 8px 12px #000047ba;
+}
+
+.blog-banner-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.blog-banner-heading {
+    font-size: var(--banner-heading-font-size);
+    text-transform: uppercase;
+    font-weight: var(--bold-main);
+    letter-spacing: var(--banner-heading-letter-spacing);
+    color: white;
+}
+
+.blog-banner-content>:nth-child(2) {
+    color: white;
+    font-weight: var(--bold-main);
+    letter-spacing: var(--banner-heading-letter-spacing);
+    font-size: var(--paragraph-font-size);
+}
+
+.travel-blog-heading-main {
+    color: white;
+    font-weight: var(--bold-main);
+    letter-spacing: var(--banner-heading-letter-spacing);
+    text-align: center;
+    margin: 36px 0;
+}
+
+.blogs-container {
+    padding-inline: var(--padding-LR);
+    padding-block: var(--padding-TB);
+    background-color: var(--color-blue-white);
+}
+
+.blog-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 28px 0;
+    padding: 14px;
+    background-color: white;
+    border-radius: 32px;
+}
+
+.blog-card img {
+    border-radius: 32px 0 0 32px;
+}
+
+.blog-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.blog-card-header {
+    display: flex;
+    gap: 32px;
+}
+
+@media (max-width: 800px) {
+    .blog-banner-heading {
+        font-size: 48px;
+    }
+    .blog-banner-content {
+        padding-left: 36px;
+    }
+    .blog-card {
+        flex-direction: column;
+    }
+    .blog-card img {
+        border-radius: 32px;
+        width: auto;
+    }
+}
